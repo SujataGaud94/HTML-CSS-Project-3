@@ -1,0 +1,186 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hanalei&family=Kalam&family=Monofett&family=Piedra&family=Poppins:wght@700&family=Roboto+Slab&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 65px;
+    align-content: center;
+    justify-content: center;
+    /* position:fixed; */
+}
+/* hr{
+    height: 20px;
+    margin-top: 15px;
+} */
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+   
+}
+li{
+   
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: left;
+    margin-left: 70px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+
+}
+button{
+    background-color:rgb(196, 36, 196);
+    padding: 10px 28px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+    font-weight: 600;
+}
+.token{
+    width: 50%;
+    margin-left: 34rem;
+}
+
+.logo img{
+    height: 30px;
+    width: 70px;
+    margin-left: 40px;
+    
+}
+nav.logo{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    
+}
+
+/* .bgimg{
+    background-image: url("./bg.png");
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.bgimg{
+    background: url("./bg.png")  center center/cover;
+    content: "";
+    position:absolute;
+    top: 70;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+  }
+
+h1{
+    display: flex;
+  align-items: center;  
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 90px;
+
+}
+p{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;   
+}
+
+.access{
+    background-color:rgb(196, 36, 196);
+        padding: 12px 25px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 23px;
+        
+}
+
+.secbtn{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
